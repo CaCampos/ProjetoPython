@@ -1,8 +1,0 @@
-numero1_ex1 = int(input("Digite um número inteiro: "))
-numero2_ex1 = int(input("Digite um número inteiro: "))
-numero3_ex1 = int(input("Digite um número inteiro: "))
-
-def pegar_maior_valor(*numeros):
-    return max(numeros)
-maior_valor = pegar_maior_valor(numero1_ex1, numero2_ex1, numero3_ex1)
-print("O maior valor entre os números {}, {} e {} é o {}.".input(numero1_ex1, numero2_ex1, numero3_ex1, maior_valor))
