@@ -1,0 +1,4 @@
+valor_refeicao = 42.54
+servico = valor_refeicao * 0.1
+total = valor_refeicao + servico
+print(total)

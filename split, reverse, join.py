@@ -1,0 +1,7 @@
+nome_completo = input("Escreva seu nome completo: ")
+nome_split = nome_completo.split(" ")
+print(nome_split)
+nome_split.reverse()
+print(nome_split)
+nome_join = " ".join(nome_split)
+print(nome_join)
